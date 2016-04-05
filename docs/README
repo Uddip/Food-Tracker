@@ -1,0 +1,34 @@
+******************************************************
+Uddip Amin		0800623
+CIS*2500		Assignment 4
+April 3, 2016
+******************************************************
+
+
+************
+Compilation
+************
+
+make
+
+***********************
+Running the program(s)
+***********************
+
+./tracker [food_list_file_path]
+
+
+*****************
+Known Limitations
+*****************
+
+Program will exit if there are more than or less than 1 additional command line arguments.
+
+Program will exit if file containing a food list does not exist.
+
+Program will not accept NULL values, NULL values will exit the program and provide an error message stating that a list element is missing.
+
+Program will set negative or non-integer calorie values to 0.
+
+Program will provide error messages and exit when list or list elements are NULL.
+
